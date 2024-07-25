@@ -1,4 +1,4 @@
-# Dystonia-in-DBS-SAS-code
+# DBS-in-Dystonia-Code
 This repository stores SAS scripts for the DBS in dystonia project. 
 
 This repo contains four SAS scripts:
