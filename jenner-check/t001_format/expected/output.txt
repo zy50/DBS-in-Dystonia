@@ -1,0 +1,9 @@
+                                     Sample discharges with project formats applied
+
+  Obs  admid      sex                    race                     pay1  dystonia  dbs  HOSP_REGION
+    1      1     Male                   White                 Medicare       Yes  Yes    Northeast
+    2      2   Female                   Black                 Medicaid        No   No      Midwest
+    3      3     Male                Hispanic    Private insurance/HMO       Yes   No        South
+    4      4   Female  Asian/Pacific Islander  Other/Unknown/No charge        No   No         West
+    5      5  Unknown           Other/Unknown  Other/Unknown/No charge       Yes  Yes          999
+

@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-08-20T10:55:00Z",
+  "_captured_run_id": "r_80033767d5204bee8f1422d2a06e766e",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote work.plot (16 rows, 3 columns).",
+    "NOTE: ODS Graphics is ON (width=640px, height=480px, format=JPEG).",
+    "NOTE: PROC SGPLOT data=work.plot",
+    "NOTE: ODS Graphics is OFF."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

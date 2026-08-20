@@ -1,0 +1,30 @@
+NOTE: Option OBS changed to 100.
+NOTE: PROC FORMAT library=WORK
+
+NOTE: FORMAT yn defined (3 ranges).
+NOTE: FORMAT nmtrt defined (2 ranges).
+NOTE: FORMAT sexf defined (3 ranges).
+NOTE: FORMAT groupf defined (5 ranges).
+NOTE: FORMAT groupnonum defined (5 ranges).
+NOTE: FORMAT panelf defined (5 ranges).
+NOTE: FORMAT racefnew defined (5 ranges).
+NOTE: FORMAT teachfnew defined (2 ranges).
+NOTE: FORMAT insurancef defined (4 ranges).
+NOTE: FORMAT FZIQnew defined (5 ranges).
+NOTE: FORMAT F1PAYnew defined (5 ranges).
+NOTE: FORMAT ST_REGNnew defined (4 ranges).
+NOTE: FORMAT LOCTCHNnew defined (3 ranges).
+NOTE: FORMAT FBEDSZNnew defined (3 ranges).
+NOTE: FORMAT F_CNTRLnew defined (5 ranges).
+NOTE: DATA work.sample
+
+NOTE: Processing inline DATALINES (5 lines)
+
+NOTE: Read 5 rows from DATALINES.
+NOTE: Wrote work.sample (5 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=work.sample
+
+NOTE: PROC PRINT completed: 5 observations printed, 7 variables

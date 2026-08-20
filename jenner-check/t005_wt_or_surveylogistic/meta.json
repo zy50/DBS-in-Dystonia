@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_wt_or_surveylogistic",
+  "source_file": "Analysis.sas",
+  "source_blob_sha": "3f4aa1e769d26327654421c616ec872ae6bf3c39",
+  "source_commit": "f49cedde04f8561e28eca495024306627248be7c",
+  "notes": "Copies the project's %wt_or(dx, var) macro from Analysis.sas's Univariate OR section verbatim (PROC SURVEYLOGISTIC with the project's own WEIGHT/CLUSTER/STRATA/domain survey-design statements and CLASS ref= coding), redirecting the hardcoded ODS RTF output path to a relative one. Mock data mirrors the project's own dataset/outcome-variable naming: the macro's outcome column is trt_&dx., and the project calls %wt_or(COMBINED, sex) with the dataset literally named COMBINED, so the mock cohort's outcome column is named trt_COMBINED to match what the macro actually binds to (that naming quirk is the source repo's own, not introduced here)."
+}

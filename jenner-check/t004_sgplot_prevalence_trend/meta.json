@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_sgplot_prevalence_trend",
+  "source_file": "Analysis.sas",
+  "source_blob_sha": "3f4aa1e769d26327654421c616ec872ae6bf3c39",
+  "source_commit": "f49cedde04f8561e28eca495024306627248be7c",
+  "notes": "Copies the PROC SGPLOT trend-line block from Analysis.sas's Figures section (dystonia prevalence + DBS treatment rate across NIS years 2012-2019) unmodified; redirected the hardcoded &Sour.\&sub.\Results\ gpath to a relative './'. Mock data shaped like the 'plot' dataset (year, type, per) the original script builds from its dystoniatrend table right before this block."
+}

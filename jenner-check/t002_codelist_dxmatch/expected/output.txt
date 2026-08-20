@@ -1,0 +1,8 @@
+                            DBS/dystonia/comorbidity flags from the project's ICD code lists
+
+  Obs  admid  dbs_flag  dystonia_flag  CM_CHF  CM_HTN
+    1      1         0              1       1       1
+    2      2         1              0       0       1
+    3      3         0              0       0       0
+    4      4         0              1       1       0
+
