@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_codelist_dxmatch",
+  "source_file": "codelist.sas",
+  "source_blob_sha": "4b871fbf5e93369c879bcaa831b1795a7ad3003f",
+  "source_commit": "f49cedde04f8561e28eca495024306627248be7c",
+  "notes": "codelist.sas defines macro variables only (ICD-9/10 code lists), so jenner-check excerpted the DBS/dystonia/CHF/HTN code lists verbatim and wrote a small caller that applies them to 4 mock diagnosis records using the same 'in:' substring-match pattern Analysis.sas uses in its Elixhauser comorbidity ('elx') data step."
+}

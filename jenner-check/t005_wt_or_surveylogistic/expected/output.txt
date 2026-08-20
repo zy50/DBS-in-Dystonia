@@ -1,0 +1,40 @@
+
+                      The SURVEYLOGISTIC Procedure
+
+  Number of Strata                4
+  Number of Clusters              4
+  Number of Observations          8
+  Number of Events                0
+  Number of Non-Events            8
+  Link Function               logit
+  Variance Method            TAYLOR
+
+                Model Fit Statistics
+
+  -2 Log Likelihood          0.7126
+  AIC                        6.7126
+  SC                         6.9510
+
+                  Analysis of Maximum Likelihood Estimates
+
+Parameter                             Estimate       Std Error     t Value    Pr > |t|
+--------------------------------------------------------------------------------------
+Intercept                            -3.135494        0.268309    -11.6861      0.0543
+sex                   1               0.090972        0.268309      0.3391      0.7919
+sex                   2               0.000000                                        
+--------------------------------------------------------------------------------------
+
+                         Odds Ratio Estimates
+
+Effect                    Odds Ratio
+------------------------------------
+sex 1 vs Male                 1.0952
+sex 2 vs Male                 1.0000
+------------------------------------
+                        Parameter estimates for sex, from the project's weighted logistic macro
+
+  Obs  Parameter       Estimate        StdErr          tValue         Probt
+    1  Intercept  -3.1354942159  0.2683092925  -11.6861186097  0.0543441926
+    2  SEX_1       0.0909717782  0.2683092925    0.3390556375  0.7918942442
+    3  SEX_2                  0             .               .             .
+

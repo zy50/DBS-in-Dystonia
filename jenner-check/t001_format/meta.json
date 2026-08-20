@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_format",
+  "source_file": "format.sas",
+  "source_blob_sha": "d825fa790a2486e1433b8174f6ac3600ab76a845",
+  "source_commit": "f49cedde04f8561e28eca495024306627248be7c",
+  "notes": "format.sas runs unmodified (verbatim PROC FORMAT block, all 15 project value labels for sex/race/insurance/region/yn/dystonia flags); jenner-check appended a small PROC PRINT against 5 mock discharge rows shaped like the project's NIS/HCUP fields to show the formats resolving to readable labels."
+}

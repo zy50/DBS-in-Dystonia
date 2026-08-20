@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_cmscore",
+  "source_file": "Analysis.sas",
+  "source_blob_sha": "3f4aa1e769d26327654421c616ec872ae6bf3c39",
+  "source_commit": "f49cedde04f8561e28eca495024306627248be7c",
+  "notes": "Copies Analysis.sas's %get_cmscore macro verbatim (weighted Elixhauser comorbidity scoring: three parallel arrays for comorbidity flags, readmission weights, and mortality weights, summed via a do-loop) and calls it against 3 mock patients using the same %let nv_=29 / DATA step / %get_cmscore invocation pattern used right after Analysis.sas's 'elx' data step."
+}
